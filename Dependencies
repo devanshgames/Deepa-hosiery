@@ -1,0 +1,12 @@
+# Install dependencies
+npm install
+
+# Install Tailwind & Lucide
+npm install -D tailwindcss postcss autoprefixer
+npm install lucide-react
+
+# Initialize Tailwind
+npx tailwindcss init -p
+
+# Run dev server
+npm run dev
